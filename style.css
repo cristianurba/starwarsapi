@@ -1,0 +1,63 @@
+body{
+    background: url('https://media.istockphoto.com/vectors/vector-stars-background-with-milky-way-vector-id583799120?k=6&m=583799120&s=170667a&w=0&h=cLDRWKhvsvceMiS4JYa577sKZRpRnnD_nV9mfr876Qw=') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(214, 214, 1);
+    font-family: lato;
+}
+
+.container{
+    width: 60%;
+    margin: 9em auto;
+
+}
+
+.container h1{
+    text-align: center;
+    display: none;
+}
+
+#logoStarWars{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.selector select{
+    background-color: transparent;
+    color: rgb(214, 214, 1);
+    border-color: transparent;
+    cursor: pointer;
+    display: flex; 
+    justify-content: center;
+    margin: 1em auto;
+}
+
+
+
+.info-container{
+    padding: 1em;
+    border: 2px solid yellow;
+    border-radius: .5em; 
+    margin: 0 auto;
+    width: 50%;
+}
+
+#button{
+    margin: 2em auto;
+    display: flex; justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    opacity: 60%;
+    border-radius: 1em;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#button:hover{
+    background-color: yellow;
+    color: black;
+}

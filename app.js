@@ -20,7 +20,7 @@ function getInfo() {
     updateWithLoading();
     let randomNumber = Math.floor((Math.random() * number) + 1);
 
-    let apiUrl = `http://swapi.dev/api/${selection}/` + randomNumber;
+    let apiUrl = `https://swapi.dev/api/${selection}/` + randomNumber;
 
     axios.get(apiUrl).then(function (response) {
         updateInfo(response.data);
